@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ingreso-egresoredux": {
+      "hosting": {
+        "IngresoRedux": [
+          "ingreso-egresoredux"
+        ]
+      }
+    }
+  }
+}

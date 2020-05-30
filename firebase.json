@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "IngresoRedux",
+      "public": "dist/IngresoRedux",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
